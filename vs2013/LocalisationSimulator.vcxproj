@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\AutonomousBehaviour.hpp" />
+    <ClInclude Include="..\include\AutonomousRobot.hpp" />
+    <ClInclude Include="..\include\AverageFilter.hpp" />
+    <ClInclude Include="..\include\AverageTracker.hpp" />
+    <ClInclude Include="..\include\BehaviourStatus.hpp" />
+    <ClInclude Include="..\include\BehaviourUpdate.hpp" />
+    <ClInclude Include="..\include\DataLogger.hpp" />
+    <ClInclude Include="..\include\Drawable.hpp" />
+    <ClInclude Include="..\include\Field.hpp" />
+    <ClInclude Include="..\include\Initialisable.hpp" />
+    <ClInclude Include="..\include\KalmanFilter.hpp" />
+    <ClInclude Include="..\include\LastMeasurementFilter.hpp" />
+    <ClInclude Include="..\include\LocalisationSimulator.hpp" />
+    <ClInclude Include="..\include\LocalisingRobot.hpp" />
+    <ClInclude Include="..\include\MeasurementData.hpp" />
+    <ClInclude Include="..\include\MeasurementFilter.hpp" />
+    <ClInclude Include="..\include\MeasurementGenerator.hpp" />
+    <ClInclude Include="..\include\Monitor.hpp" />
+    <ClInclude Include="..\include\Moving.hpp" />
+    <ClInclude Include="..\include\Robot.hpp" />
+    <ClInclude Include="..\include\RobotEstimator.hpp" />
+    <ClInclude Include="..\include\Simulator.hpp" />
+    <ClInclude Include="..\include\StandStill.hpp" />
+    <ClInclude Include="..\include\StateData.hpp" />
+    <ClInclude Include="..\include\targetver.h" />
+    <ClInclude Include="..\include\Updatable.hpp" />
+    <ClInclude Include="..\include\Utilities.hpp" />
+    <ClInclude Include="..\include\WalkAroundField.hpp" />
+    <ClInclude Include="..\include\WalkBackAndForward.hpp" />
+    <ClInclude Include="..\include\WalkInStraightLine.hpp" />
+    <ClInclude Include="..\include\WalkToPoint.hpp" />
+    <ClInclude Include="..\include\WaypointWalker.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AutonomousRobot.cpp" />
+    <ClCompile Include="..\src\AverageFilter.cpp" />
+    <ClCompile Include="..\src\DataLogger.cpp" />
+    <ClCompile Include="..\src\Drawable.cpp" />
+    <ClCompile Include="..\src\Field.cpp" />
+    <ClCompile Include="..\src\KalmanFilter.cpp" />
+    <ClCompile Include="..\src\LastMeasurementFilter.cpp" />
+    <ClCompile Include="..\src\LocalisationSimulator.cpp" />
+    <ClCompile Include="..\src\LocalisingRobot.cpp" />
+    <ClCompile Include="..\src\MeasurementGenerator.cpp" />
+    <ClCompile Include="..\src\Monitor.cpp" />
+    <ClCompile Include="..\src\Moving.cpp" />
+    <ClCompile Include="..\src\Robot.cpp" />
+    <ClCompile Include="..\src\RobotEstimator.cpp" />
+    <ClCompile Include="..\src\Simulator.cpp" />
+    <ClCompile Include="..\src\StandStill.cpp" />
+    <ClCompile Include="..\src\WalkAroundField.cpp" />
+    <ClCompile Include="..\src\WalkBackAndForward.cpp" />
+    <ClCompile Include="..\src\WalkInStraightLine.cpp" />
+    <ClCompile Include="..\src\WalkToPoint.cpp" />
+    <ClCompile Include="..\src\WaypointWalker.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C086AEB0-9074-4A37-B84E-F453BB2E797D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LocalisationSimulator</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\lib\*.dll" "$(ProjectDir)..\bin\."
+copy "$(ProjectDir)..\assets\*.*" "$(ProjectDir)..\bin\."</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
