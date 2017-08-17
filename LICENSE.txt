@@ -1,8 +1,26 @@
 LICENSING INFORMATION
 =================================================
 
-The LocalisationSimulator project is released under the GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.en.html) (GPL 3.0). All files found in this distribution (except for the font Gravity, which is discussed below) are released under this license. This means that these files are free to download, use, redistribute, and modify (under certain conditions). Please read the 'licenses/gpl-3.0.txt' file for more information on the GPL 3.0 license.
+The LocalisationSimulator project is released under the GNU General Public 
+License v3.0 (https://www.gnu.org/licenses/gpl-3.0.en.html) (GPL 3.0). All files
+found in this distribution (except for the font Gravity, which is discussed 
+below) are released under this license. This means that these files are free to 
+download, use, redistribute, and modify (under certain conditions). Please read 
+the 'licenses/gpl-3.0.txt' file for more information on the GPL 3.0 license.
 
-Additionally, the source code for Eigen is also released under the Mozilla Public License v2.0 (https://www.mozilla.org/en-US/MPL/2.0/) (MPL 2.0). As such, all files in the 'include/Eigen' folder (and their subfolders) are released under both the GPL 3.0 and MPL 2.0 as a dual license. This means that, you, as the recipient, may choose to use and further distribute the Eigen source code under the terms of either the GPL 3.0 or MPL 2.0 license. However, regardless of which license you use the Eigen source under, all other files outside of the 'include/Eigen' folder (except for the font Gravity) will still be under the terms of the GPL 3.0. Please read the 'licenses/mpl-2.0.txt' file for more information on the MPL 2.0 license.
+Additionally, the source code for Eigen is also released under the Mozilla 
+Public License v2.0 (https://www.mozilla.org/en-US/MPL/2.0/) (MPL 2.0). As such,
+all files in the 'include/Eigen' folder (and their subfolders) are released 
+under both the GPL 3.0 and MPL 2.0 as a dual license. This means that, you, as 
+the recipient, may choose to use and further distribute the Eigen source code 
+under the terms of either the GPL 3.0 or MPL 2.0 license. However, regardless of
+which license you use the Eigen source under, all other files outside of the 
+'include/Eigen' folder (except for the font Gravity) will still be under the 
+terms of the GPL 3.0. Please read the 'licenses/mpl-2.0.txt' file for more 
+information on the MPL 2.0 license.
 
-The font Gravity ('assets/Gravity-Regular.otf') is released under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Under the terms of the license, it must stay released under this license. Please read the 'licenses/ccby-4.0.txt' file for more information on the CC BY 4.0 license.
+The font Gravity ('assets/Gravity-Regular.otf') is released under the Creative 
+Commons Attribution 4.0 International License 
+(https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Under the terms of 
+the license, it must stay released under this license. Please read the 
+'licenses/ccby-4.0.txt' file for more information on the CC BY 4.0 license.
