@@ -37,7 +37,7 @@ LocalisationSimulator is currently only supported on Windows.
 RUNNING
 -------------------
 If you simply want to run the LocalisationSimulator, then download a release 
-(https://github.com/jezdawgz/LocalisationSimulator/releases) and run 
+(https://github.com/jcol2/LocalisationSimulator/releases) and run 
 'LocalisationSimulator.exe' in the 'bin' folder. Be sure to run the executable 
 from a terminal, as commandline arguments are required for configuration. Run 
 'LocalisationSimulator.exe' without any arguments to see usage information.
